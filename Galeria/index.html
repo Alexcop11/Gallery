@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css">
+  <link rel="manifest" href="manifest.json">
+  <title>Mini Galería Horizontal</title>
+</head>
+
+<body>
+  <h1>Galería</h1>
+  <video id="video" autoplay playsinline></video>
+  <div class="controls">
+    <button id="capture">Capturar</button>
+    <button id="toggleCamera">Cambiar Cámara</button>
+    <button id="clearGallery">Limpiar</button>
+  </div>
+  <div id="gallery" class="gallery"></div>
+
+  
+</body>
+<script src="https://cdn.jsdelivr.net/npm/pouchdb@7.3.1/dist/pouchdb.min.js"></script>
+<script src="functions.js"></script>
+</html>

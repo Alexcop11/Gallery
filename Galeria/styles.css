@@ -1,0 +1,37 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 1rem;
+  background: #f0f0f0;
+}
+
+video {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+.controls {
+  margin: 1rem 0;
+}
+
+button {
+  margin: 0.5rem;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+}
+
+.gallery {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  padding: 1rem;
+  background: white;
+  border-top: 2px solid #ccc;
+}
+
+.gallery img {
+  height: 100px;
+  border-radius: 8px;
+}
